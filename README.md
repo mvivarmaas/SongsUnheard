@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## What is Songs Unheard?
 
-Things you may want to cover:
+Songs unheard is a project that leverages the Spotify API to intelligently generate song recommendations in genres that the user has not listened to before.
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
