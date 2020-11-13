@@ -17,7 +17,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 
-gem 'sqlite3', '~> 1.4'
+gem 'pg'
 
 gem 'rspotify'
 # Use Redis adapter to run Action Cable in production
@@ -54,9 +54,7 @@ group :test do
   gem 'webdrivers'
 end
 
-group :production do
-  gem 'pg'
-end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
